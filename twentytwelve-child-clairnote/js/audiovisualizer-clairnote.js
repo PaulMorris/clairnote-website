@@ -41,8 +41,8 @@ avr.uiToggler = function (anId) {
 }
 
 avr.audioCheck([
-    'http://clairnote.org/wp/wp-content/themes/twentytwelve-child-two/audio/sprites-3octaves-2secs-mono.mp3',
-    'http://clairnote.org/wp/wp-content/themes/twentytwelve-child-two/audio/sprites-3octaves-2secs-mono.ogg'
+    'http://clairnote.org/audio/sprites-3octaves-2secs-mono.mp3',
+    'http://clairnote.org/audio/sprites-3octaves-2secs-mono.ogg'
 ]);
 
 if (avr.piano === null) {

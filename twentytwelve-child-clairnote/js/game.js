@@ -663,8 +663,8 @@ avr.drawStaff(document.getElementById("staff1"));
 avr.drawStaff(ngs.staff2);
 
 avr.audioCheck([
-    'http://clairnote.org/wp/wp-content/themes/twentytwelve-child-two/audio/sprites-3octaves-2secs-mono.mp3',
-    'http://clairnote.org/wp/wp-content/themes/twentytwelve-child-two/audio/sprites-3octaves-2secs-mono.ogg'
+    'http://clairnote.org/audio/sprites-3octaves-2secs-mono.mp3',
+    'http://clairnote.org/audio/sprites-3octaves-2secs-mono.ogg'
 ]);
 
 if (avr.piano === null) {
