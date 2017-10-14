@@ -2,14 +2,12 @@
 /* This Source Code Form is subject to the terms of the Mozilla Public
  * License, v. 2.0. If a copy of the MPL was not distributed with this file,
  * You can obtain one at http://mozilla.org/MPL/2.0/. */
-// JavaScript Document
-// version: 20161014
 
-// ngs: Notation Game State
+// ngs (notation game state)
 var ngs = (function () {
     "use strict";
     return {
-        // NOTE: commented properties with //// are set lazily later
+        // commented properties with //// are set lazily later
 
         // UI game selection state - needs defaults
         gameType: "keyboard",
@@ -57,7 +55,7 @@ var ngs = (function () {
 }());
 
 
-// tng: The Notation Game (functions)
+// tng (the notation game) (functions)
 var tng = (function () {
     "use strict";
     return {
