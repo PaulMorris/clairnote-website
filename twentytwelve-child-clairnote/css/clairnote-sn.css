@@ -1,0 +1,38 @@
+/*
+rgb(90, 128, 90)
+rgb(134, 162, 124)
+*/
+body {
+    background: #d6dec3;
+}
+.site-header {
+    background-color: rgb(90, 128, 90);
+}
+
+@media screen and (min-width: 600px) {
+    .site-header {
+        background-color: rgb(134, 162, 124);
+    }
+    .menu-clairnote-sn-container {
+        margin: 0px auto;
+        max-width: 67.1428rem;
+        padding: 0px 3.57142rem;
+        background-color: rgb(90, 128, 90);
+        height: 44px;
+    }
+
+
+    .main-navigation li:hover,
+    .main-navigation li ul li a {
+        background-color: rgb(134, 162, 124);
+    }
+
+    .main-navigation li a:hover,
+    .main-navigation li ul li a:hover {
+        background: #A1D57D;
+    }
+
+    #menu-clairnote-sn > li:first-child {
+        margin-left: -1rem;
+    }
+}

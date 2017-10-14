@@ -1,0 +1,131 @@
+/* Last big revision: Dec 6, 2013 */
+
+/* was -2em, adjusts left-right menu position */
+/* #access ul { margin-left: -1em; } */
+/*
+p#tagline {
+    margin:0; /*was 6% 8.2%
+}
+*/
+
+.audiovisualizer {
+    margin-top: 0px;
+    padding-bottom: 0px;
+}
+
+/* Staff and notes */
+
+#svg_wrapper {
+    margin-top: 50px;
+}
+
+.svg_staff {
+    max-width: 100%;
+    height: auto;
+}
+
+
+/* UI Controls */
+
+#feedback {
+    font-size:.9em;
+    font-weight: bold;
+    padding: 0 0 0 30px; /* was 1.4em with small size text, then was 0.5em top and bottom */
+    margin:-15px 0 5px; /* was -35px on top margin before trumpet */
+    color:#000;
+    min-height:25px;
+    width:330px;
+    text-align:left;
+}
+.controls ul {
+    float:none;
+}
+
+#intervalsSubGameSelector {
+    display: none;
+}
+
+#intervals_controls1 {
+    display: block;
+}
+#intervals_caption {
+    font-size: small;
+    color: #666;
+    clear: both;
+    margin-top: 10px;
+}
+
+
+#main_controls_wrapper {
+    min-height: 185px;
+}
+#subcontrols {
+    clear: both;
+}
+#keyboard_div{
+    display: block;
+    /* height:206px; */
+    /* min-height: 185px; */
+}
+#keys_piano {
+    display: block;
+}
+#piano-octave2a, #piano-octave2b, #string-octave2, #sixsix-octave2a, #sixsix-octave2b {
+    display: none;
+}
+.narrowkey_li {
+    width: 26px;
+}
+/*
+#keyboardSubButtons {
+    padding:20px 0;
+}
+#keyboardSubButtons ul li {
+    float:none;
+    display:block;
+}
+*/
+#keyboardSubButtons ul {
+    margin-left: 35px;
+}
+#keyboardSubButtons ul #pianoLayoutButton {
+    display: none;
+}
+#intervalsbuttons {
+    margin-top: 26px; /* change to 31px for trumpet version */
+}
+#odd-intervals {
+    display: none;
+}
+
+#trumpetButtons {
+    display: none;
+}
+#trumpetButtons a {
+    padding: 10px 3px;
+    font-family: Georgia;
+    font-size: 30px;
+}
+
+/* GUITAR */
+#guitarButtons {
+	display: none;
+}
+.controls ul li.guitarString {
+	float: none;
+}
+.guitarString a {
+	min-width: 30px;
+}
+
+#time, #score {
+    border: 1px solid #999;
+    border-radius: 4px;
+    padding: 8px 10px;
+    margin: 4px .2em;
+    font-weight: 500;
+    background: rgb(221, 221, 221);
+    /* color:#fff; */
+    min-width: 4.5em;
+    text-align: center;
+}

@@ -1,0 +1,1 @@
+if (document.getElementById("text-5")) { document.getElementById("text-5").firstChild.innerHTML = "<a href=\"http://clairnote.org/blog/\" class=\"blog-sidebar-h3-link\">The Clairnote Blog</a>" } // make "The Clairnote Blog" heading a link to blog homepage

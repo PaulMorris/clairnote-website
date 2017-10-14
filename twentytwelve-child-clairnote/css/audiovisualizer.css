@@ -1,0 +1,318 @@
+/* version 20161015 */
+
+#audiovisualizer-h1 {
+    font-size: 3rem;
+    margin: 0;
+    margin-bottom: 1.71429rem;
+	  margin-top: 2.5rem;
+}
+
+#homepage-subtitle {
+	  margin-top: 2rem;
+}
+
+#load-message {
+	color:#999; 
+	padding:0px 5%;
+	font-weight:normal;
+	font-size:.8em;
+}
+
+/* AudioVisualizer */
+
+.audiovisualizer {
+	padding: 0 0 35px;
+}
+.audiovisualizer a,
+.audiovisualizer a:focus, 
+.audiovisualizer a:active, 
+.audiovisualizer a:hover {
+	text-decoration: none;
+}
+
+.entry-content {padding-top: 0;}
+
+
+#notes_title { 
+	font-size: small;
+	color: rgb(170, 170, 170);
+	margin:0 0 20px 20px;
+}
+
+
+/* Staff and notes */
+
+.svg_staff {
+    max-width: 100%;
+    height: auto;
+}
+
+
+/* UI Controls */
+#main_controls_wrapper {
+	min-height:40px;
+}
+
+.controls {
+	z-index:1;
+	text-align:left;
+	display: inline-block;
+	clear:both;
+	font-size: .75em;
+	line-height:1.2em;
+}
+.controls ul {
+	margin: 0 1em 0em 0;
+	padding: 0;
+	display: block; 
+	clear:both;
+	float:left;
+    line-height: 1.2em;
+}
+.controls ul li {
+	margin: 0px;
+	padding: 0em .2em;
+	list-style-type: none;
+	float: left;
+}
+
+.controls a { 
+	border:1px solid #bbb;
+	background:#f9f9f9;
+	padding: 8px 10px;
+	border-radius: 4px;
+	display: inline-block;
+	margin:4px 0 0;
+	text-align:center;
+}
+
+.controls a:hover {
+	background:#dde6ec;
+	text-decoration:none;
+}
+	
+.controls a:active {background:#d4dff7}
+
+.scaleTypeButton { min-width: 62px; }
+.scaleRootButton { min-width: 40px; }
+#scaleRootButtonsTopRow { margin-top: 1.5em; }
+#scaleRootButtonDb { margin-left: 33px; }
+
+
+.controlbutton { min-width: 62px; } 
+
+.intervalScaleButton { min-width: 62px; }
+.intbutton2 { min-width: 40px; }
+.intbutton1 { min-width: 62px; } 
+#intervals_controls1 { display: none; }
+#intervals_controls0 { margin-bottom: 1.5em; }
+#intButtonMaj2nds { margin-left: 45px; }
+
+#playButtonLi {
+    margin-left: 2.5em;
+}
+
+#loadingAudio {
+	display: block;
+	color:#999 !important;
+}
+#playButton { 
+	display: none;
+}
+#stopButton {
+	display: none;
+}
+
+#volumeControl {display:none;}
+
+#scalesbuttons,
+#modesbuttons,
+#scaleRootButtonsTopRow,
+#scaleRootButtonsBottomRow,
+#intervalsbuttons,
+#melodiesbuttons {
+    display: none;
+}
+
+/* Controls Spacing */
+#notation_controls { padding-bottom:0em; }
+#play_controls,
+#intervals_controls1 {padding-bottom:1.5em;}
+
+#subcontrols {
+	margin:0;
+	padding:0;
+}
+
+/* Keyboards */
+#keyboard_div{
+	margin: 0px 0 10px; 
+	height: 106px;  
+	display:none;
+	} 
+#keys_piano {
+	display:block;
+	float:left;
+	margin-bottom:10px;
+}
+#keys_1row {
+	display:none;
+	float:left;
+	margin-bottom:57px;
+}
+#keys_sixsix {
+	display:none; 
+	float:left;
+	margin-bottom:10px;
+}
+
+.keyboard_ul {
+	list-style:none; 
+	margin:0 !important; 
+	padding:0;
+	text-align:center;
+}
+.keyboard_ul li {
+	display:inline-block; 	
+	margin:1px; 
+}
+
+.keyboard_li, .narrowkey_li{
+	list-style:none; 
+	margin:0;
+	padding:2px; 
+	width:26px; 
+	height:39px; 
+	border:1px solid #777; 
+	display:inline-block; 
+	border-radius: 4px;
+	text-align:center;
+	font-size:xx-small;
+	font-family:Verdana, Tahoma, Geneva, sans-serif;
+}
+.narrowkey_li {
+	width:14px;
+	font-size:.5em;
+	}
+
+.keyboard_li:hover {color:#666; text-decoration:none;}
+
+.whitekey{background:#eee; color:#666;}
+.whitekey:hover{background:#dde6ec;}
+.whitekey:active{background:#d4dff7;}
+
+.blackkey{background:#ddd; color:#666; }
+.blackkey:hover{background:#dde6ec;}
+.blackkey:active{background:#d4dff7;}
+
+.nokey{background:none; border:1px solid #fff}
+
+.row2{margin-left:0px; }
+
+#keyboardSubButtons {
+	font-size: .65em;
+	clear:both;
+}
+
+#keyboardSubButtons ul {
+	margin: 0;
+	padding: 0;
+}
+#keyboardSubButtons ul li {
+	margin: 0px;
+	padding: 0em 0.2em;
+	list-style-type: none;
+	display:inline-block;
+	float:left;
+}
+#keyboardSubButtons a {
+	border: 1px solid #BBB;
+	background: none repeat scroll 0% 0% #F9F9F9;
+	padding: 3px 12px;
+	border-radius: 4px;
+	display: inline-block;
+	margin: 4px 0px 0px;
+	text-align: center;
+}
+#keyboardSubButtons a:hover, #keyboardSubButtons a:active {
+	background: none repeat scroll 0% 0% #DDE6EC;
+	text-decoration: none;
+}
+#keyboardSubButtons #pianoLayoutButton {
+	display: none;
+}
+
+/* Videos */
+#videoBlueDanube {
+    display: block;
+}
+
+#videoRainbow,
+#videoDoReMi,
+#videoGreensleeves,
+#videoBachPrelude,
+#videoElise,
+#videoEntertainer {
+    display: none;
+}
+
+
+/* Drop-down menus */
+
+.JSmenu 
+{ z-index: 30;}
+
+.JSmenu a { }
+
+.JSmenu div
+{	position: absolute;
+	visibility: hidden;
+	margin: 1px 0 0;
+	padding: 0px;
+	background: #fff;
+	border: 2px solid #bbb;
+	border-radius: 4px;
+}
+
+	.JSmenu div a
+	{	position: relative;
+		display: block;
+		margin: 0;
+		padding: 8px 10px;
+		width: auto;
+		white-space: nowrap;
+		border:0px;
+		border-radius: 0px;
+		text-align:left;
+	}
+
+#m1, #m2 {z-index:100;}
+
+/* =Media queries
+-------------------------------------------------------------- */
+
+/* Minimum width of 600 pixels. */
+@media screen and (min-width: 600px) {
+	body .site-content {
+		width: 100%;
+	}
+	#audiovisualizer-h1 {
+    line-height: 2.25rem;
+		margin-bottom: 1.71429rem;
+		margin-top: 0rem;
+	}
+	#homepage-subtitle {
+		margin-top: 3.5rem;
+	}
+	
+}
+
+/* Maximum width of 400 pixels. */
+/* hide controls on home page until we have a better UI for phones */
+/*
+@media screen and (max-width: 400px) {
+	.page-id-29 #main_controls_wrapper {
+		display: none;
+	}
+}
+*/
