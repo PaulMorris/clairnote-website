@@ -377,23 +377,32 @@ var avr = (function () {
             });
         },
 
+        clairnoteSN: false,
+
         getLedgerPositions: function (note) {
             // takes a vertical note position and returns an array of
             // vertical ledger positions for that note
+            // staff lines are: 44 48 (52) 56 60
+            var ledgers = [];
+            if (50 <= note && note <= 54) {
+                ledgers.push(52);
 
-            if (note > 49 && note < 55) return [52];
+            } else if (note < 43 || note > 61) {
+                let line = note < 43 ? 44 : 60,
+                    difference = note - line,
+                    distance = Math.abs(difference),
+                    direction = difference < 0 ? -1 : 1,
+                    ledgerCount = Math.ceil((distance - 1) / 4);
+                ledgers = avr.iota(ledgerCount, 4, 4)
+                    .map((l) => line + (l * direction));
+            }
 
-            else if (note < 31) return [40, 36, 32, 28];
-            else if (note < 35) return [40, 36, 32];
-            else if (note < 39) return [40, 36];
-            else if (note < 43) return [40];
-
-            else if (note > 73) return [64, 68, 72, 76];
-            else if (note > 69) return [64, 68, 72];
-            else if (note > 65) return [64, 68];
-            else if (note > 61) return [64];
-
-            else return [];
+            if (avr.clairnoteSN && note % 4 === 2) {
+                // If the note is D, F#, or Bb, we add a ledger for the note.
+                // (positions 30, 34, 38, 42, 46, 50, 54, 58, 62, 66, 70, 74)
+                ledgers.push(note);
+            }
+            return ledgers;
         },
 
         makeNoteCaption: function (caption, captionNode, style) {
@@ -410,11 +419,12 @@ var avr = (function () {
 
         // YposInt (integer) indicates the vertical position of the note,
         // Xpos (number) the SVG coordinate for the note's horizontal position,
-        // id (string) for the note, interval (integer)
+        // id (string) for the note
+        // interval (integer)
         // caption (svg node) for the caption
         // returns an array of svg nodes
         getNoteSVG: function (YposInt, Xpos, id, caption, interval) {
-            var solid = YposInt % 2 === 0,
+            var solid = avr.clairnoteSN ? true : YposInt % 2 === 0,
                 stemRightOffset = solid ? 1.2375 : 1.2624,
                 Ypos = (YposInt * -0.375) + 24.1747,
                 hasInterval = interval > 0,
@@ -444,7 +454,9 @@ var avr = (function () {
             var stm = avr.stem.cloneNode(),
                 intervalExtra = 0.375 * interval;
             if (hasInterval) {
-                var intervalSolid = interval % 2 === 0 ? solid : !solid;
+                var intervalSolid = avr.clairnoteSN
+                    ? true
+                    : interval % 2 === 0 ? solid : !solid;
                 // note head 2
                 noteNodes.push(avr.translate(
                     intervalSolid ? avr.solidNote.cloneNode() : avr.hollowNote.cloneNode(),
