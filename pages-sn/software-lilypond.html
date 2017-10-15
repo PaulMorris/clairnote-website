@@ -70,14 +70,14 @@ You may want to use one of these template files to get started. They are just va
  	<li><a href="http://clairnote.org/wp/wp-content/uploads/2013/11/clairnote-piano-lyrics.ly">clairnote-piano-lyrics.ly</a> - piano staff with lyrics</li>
  	<li><a href="http://clairnote.org/wp/wp-content/uploads/2013/11/clairnote-piano-melody-lyrics.ly">clairnote-piano-melody-lyrics.ly</a> - piano staff with melody staff and lyrics</li>
 </ul>
-By default these templates show Clairnote SN's alternative <a href="http://clairnote.org/key-signatures/">key signatures</a> and <a href="http://clairnote.org/accidental-signs/">accidental signs</a>. If you would rather not use them, just delete the "%" at the beginning of the following line(s) in the template file:
+By default these templates show Clairnote SN's alternative <a href="http://clairnote.org/sn/key-signatures/">key signatures</a> and <a href="http://clairnote.org/sn/accidental-signs/">accidental signs</a>. If you would rather not use them, just delete the "%" at the beginning of the following line(s) in the template file:
 <pre>% \remove Accidental_engraver
 % \remove Key_engraver</pre>
 Restore the "%" to show them again. (In a LilyPond file a "%" signals that the rest of the line is a comment, which is ignored when the score is rendered.)
 <h2 id="octaves">Staves Spanning More Than Two Octaves</h2>
 The standard Clairnote SN staff spans two octaves.  For music with a wider pitch range you can optionally use a larger staff with the <code>\cnStaffOctaveSpan</code> command.  For example, you might use <code>\cnStaffOctaveSpan 3</code> for guitar or <code>\cnStaffOctaveSpan 4</code> for piano.  This command should be entered in a staff's <code>\with</code> block or at the very beginning of the music.
 
-To change a staff in the middle of the music – to temporarily extend it up or down an octave to avoid ledger lines – use the commands <code>\cnExtendStaffUp</code> and <code>\cnExtendStaffDown</code>.  Then "unextend" the staff with <code>\cnUnextendStaffUp</code> and <code>\cnUnextendStaffDown</code>.  See the <a title="Staff" href="http://clairnote.org/staff/">Staff</a> page for more about staves with different octave ranges.
+To change a staff in the middle of the music – to temporarily extend it up or down an octave to avoid ledger lines – use the commands <code>\cnExtendStaffUp</code> and <code>\cnExtendStaffDown</code>.  Then "unextend" the staff with <code>\cnUnextendStaffUp</code> and <code>\cnUnextendStaffDown</code>.  See the <a title="Staff" href="http://clairnote.org/sn/staff/">Staff</a> page for more about staves with different octave ranges.
 <pre>\new Staff \with {
   \cnStaffOctaveSpan 3
 } {
@@ -126,6 +126,6 @@ Here's how to change the notehead style for a given staff.
   % music goes here...
 }</pre>
 <h2 id="more">More Examples and Documentation</h2>
-To use LilyPond you will need to refer to the <a href="http://www.lilypond.org/website/manuals.html" target="_blank" rel="external noopener noreferrer">LilyPond manuals</a> which are quite comprehensive.  See <a href="http://clairnote.org/sheet-music/">Sheet Music</a> and <a href="http://clairnote.org/sheet-music/">More Sheet Music</a> for more examples of music typeset in Clairnote SN using LilyPond. The <a href="http://musicnotation.org/wiki/LilyPond" rel="external">LilyPond page</a> of the Music Notation Project Wiki offers some additional information about using LilyPond with alternative notation systems like Clairnote SN.
+To use LilyPond you will need to refer to the <a href="http://www.lilypond.org/website/manuals.html" target="_blank" rel="external noopener noreferrer">LilyPond manuals</a> which are quite comprehensive.  See <a href="http://clairnote.org/sn/sheet-music-library/">Sheet Music Library</a> and <a href="http://clairnote.org/sn/sheet-music/">More Sheet Music</a> for more examples of music typeset in Clairnote SN using LilyPond. The <a href="http://musicnotation.org/wiki/LilyPond" rel="external">LilyPond page</a> of the Music Notation Project Wiki offers some additional information about using LilyPond with alternative notation systems like Clairnote SN.
 
-Please <a href="http://clairnote.org/about/#contact">contact us</a> if you are interested in using LilyPond to create sheet music in Clairnote SN. If there is a piece of music you would like to see in Clairnote SN, we can help. See <a title="Sheet Music" href="http://clairnote.org/sheet-music/">Sheet Music</a> for more details.
+Please <a href="http://clairnote.org/sn/about/#contact">contact us</a> if you are interested in using LilyPond to create sheet music in Clairnote SN. If there is a piece of music you would like to see in Clairnote SN, we can help. See <a title="Sheet Music" href="http://clairnote.org/sn/sheet-music/">Sheet Music</a> for more details.
