@@ -1,22 +1,22 @@
 <img class="size-full wp-image-2138 alignright" style="margin: -30px 0 45px 50px;" src="http://clairnote.org/wp/wp-content/uploads/2013/11/double-lily-modified3.png" alt="LilyPond Logo" width="321" height="192" />
 
-<a href="http://lilypond.org" target="_blank" rel="external noopener noreferrer">LilyPond</a> is free music notation software that can create sheet music in Clairnote music notation.
+<a href="http://lilypond.org" target="_blank" rel="external noopener noreferrer">LilyPond</a> is free music notation software that can create sheet music in Clairnote SN music notation.
 
 <em>On this page:</em>
 <ul>
  	<li><a href="#about">About LilyPond</a></li>
- 	<li><a href="#creating">Creating Clairnote Sheet Music with LilyPond</a></li>
- 	<li><a href="#templates">Clairnote Template Files</a></li>
+ 	<li><a href="#creating">Creating Clairnote SN Sheet Music with LilyPond</a></li>
+ 	<li><a href="#templates">Clairnote SN Template Files</a></li>
  	<li><a href="#octaves">Staves Spanning More Than Two Octaves</a></li>
- 	<li><a href="#same-file">Clairnote and Traditional Music Notation in the Same File</a></li>
+ 	<li><a href="#same-file">Clairnote SN and Traditional Music Notation in the Same File</a></li>
  	<li><a href="#noteheads">Notehead Styles</a></li>
  	<li><a href="#more">More Examples and Documentation</a></li>
 </ul>
 <h2 id="about">About LilyPond</h2>
-LilyPond is <a href="https://www.gnu.org/philosophy/free-sw" target="_blank" rel="noopener noreferrer">free software</a> (part of the <a href="http://www.gnu.org/" target="_blank" rel="noopener noreferrer">GNU project</a>) and is "devoted to producing the highest-quality sheet music possible."  It is also highly customizable which makes it an excellent tool for creating sheet music in alternative notation systems like Clairnote.  It runs on all major desktop operating systems (Windows, macOS, and GNU/Linux).
+LilyPond is <a href="https://www.gnu.org/philosophy/free-sw" target="_blank" rel="noopener noreferrer">free software</a> (part of the <a href="http://www.gnu.org/" target="_blank" rel="noopener noreferrer">GNU project</a>) and is "devoted to producing the highest-quality sheet music possible."  It is also highly customizable which makes it an excellent tool for creating sheet music in alternative notation systems like Clairnote SN.  It runs on all major desktop operating systems (Windows, macOS, and GNU/Linux).
 
 LilyPond has a <a href="http://lilypond.org/text-input.html" target="_blank" rel="external noopener noreferrer">text-based</a> interface rather than a graphical user interface.  (Like <a href="https://en.wikipedia.org/wiki/TeX" target="_blank" rel="noopener noreferrer">TeX</a> but for sheet music.)  LilyPond files are just plain text files written in LilyPond syntax and named using the ".ly" file extension.
-<h2>Creating Clairnote Sheet Music with LilyPond</h2>
+<h2>Creating Clairnote SN Sheet Music with LilyPond</h2>
 It's easy whether you are converting an existing LilyPond file or creating a new one from scratch.  Here are two options:
 <ul>
  	<li>Use LilyBin, a website interface for LilyPond</li>
@@ -26,11 +26,11 @@ LilyBin lets you try LilyPond before installing it, and is also a way to use Lil
 
 <strong>Option 1: Use LilyBin</strong>
 
-1. Go to <a href="http://lilybin.clairnote.org" target="_blank" rel="noopener noreferrer">LilyBin + Clairnote</a> (<a href="http://lilybin.clairnote.org" target="_blank" rel="noopener noreferrer">lilybin.clairnote.org</a>) a version of LilyBin that supports Clairnote music notation.
+1. Go to <a href="http://lilybin.clairnote.org" target="_blank" rel="noopener noreferrer">LilyBin + Clairnote</a> (<a href="http://lilybin.clairnote.org" target="_blank" rel="noopener noreferrer">lilybin.clairnote.org</a>) a version of LilyBin that supports Clairnote SN music notation.
 
 2. Note the <code>\include "clairnote.ly"</code> line at the top of your LilyPond file.
 
-3. Edit and engrave your file (click "Preview") and it will be rendered in Clairnote music notation.
+3. Edit and engrave your file (click "Preview") and it will be rendered in Clairnote SN music notation.
 
 <strong>Option 2: Install LilyPond</strong>
 
@@ -46,14 +46,14 @@ Development: <a href="https://github.com/PaulMorris/LilyPond-Clairnote/" target=
 
 4. Open a LilyPond music file (.ly) (using Frescobaldi) and add the following line near the top.
 <pre>\include "clairnote.ly"</pre>
-This <em>includes</em> the <code>clairnote.ly</code> file in your LilyPond file, providing additional code that allows LilyPond to render/engrave the file in Clairnote music notation.  Including a file works the same as if you had cut and pasted the contents of one file into another file (see <a href="http://lilypond.org/doc/v2.18/Documentation/notation/including-lilypond-files.html" target="_blank" rel="external noopener noreferrer"><code>\include</code></a>).
+This <em>includes</em> the <code>clairnote.ly</code> file in your LilyPond file, providing additional code that allows LilyPond to render/engrave the file in Clairnote SN music notation.  Including a file works the same as if you had cut and pasted the contents of one file into another file (see <a href="http://lilypond.org/doc/v2.18/Documentation/notation/including-lilypond-files.html" target="_blank" rel="external noopener noreferrer"><code>\include</code></a>).
 
 5. Place the <code>clairnote.ly</code> file in the same directory as your LilyPond file(s) or somewhere else where LilyPond can access it (see <a href="http://lilypond.org/doc/v2.18/Documentation/notation/including-lilypond-files.html" target="_blank" rel="external noopener noreferrer"><code>\include</code></a>).  In <a href="http://www.frescobaldi.org/">Frescobaldi</a> you can designate a directory that contains files that you want to include and then you can always include those files when using Frescobaldi.  To set this up go to Preferences &gt; LilyPond Preferences.
 
-6. Edit your LilyPond file and engrave it with LilyPond.  It will be rendered in Clairnote music notation.
+6. Edit your LilyPond file and engrave it with LilyPond.  It will be rendered in Clairnote SN music notation.
 
 Note: if you are converting an existing LilyPond file (.ly), make sure it is for LilyPond version 2.18.0 or higher. Look for a <code>\version</code> statement that should be at the top of the file. If it is an earlier version, update the file using <a href="http://www.lilypond.org/doc/v2.18/Documentation/usage/updating-files-with-convert_002dly" target="_blank" rel="external noopener noreferrer">convert-ly</a>.  (The <a href="http://www.mutopiaproject.org/" target="_blank" rel="external noopener noreferrer">Mutopia Project</a> offers LilyPond files for free download, but some will need to be updated.)
-<h2 id="templates">Clairnote Template Files</h2>
+<h2 id="templates">Clairnote SN Template Files</h2>
 You may want to use one of these template files to get started. They are just variations on some of the official <a href="http://www.lilypond.org/doc/v2.18/Documentation/learning/templates" target="_blank" rel="external noopener noreferrer">LilyPond Template Files</a>.  Note the line <code>\include "clairnote.ly"</code> at the top.
 <ul>
  	<li><a href="http://clairnote.org/wp/wp-content/uploads/2013/11/clairnote-staff.ly">clairnote-staff.ly</a> -  2 octave staff (the standard staff)</li>
@@ -70,12 +70,12 @@ You may want to use one of these template files to get started. They are just va
  	<li><a href="http://clairnote.org/wp/wp-content/uploads/2013/11/clairnote-piano-lyrics.ly">clairnote-piano-lyrics.ly</a> - piano staff with lyrics</li>
  	<li><a href="http://clairnote.org/wp/wp-content/uploads/2013/11/clairnote-piano-melody-lyrics.ly">clairnote-piano-melody-lyrics.ly</a> - piano staff with melody staff and lyrics</li>
 </ul>
-By default these templates show Clairnote's alternative <a href="http://clairnote.org/key-signatures/">key signatures</a> and <a href="http://clairnote.org/accidental-signs/">accidental signs</a>. If you would rather not use them, just delete the "%" at the beginning of the following line(s) in the template file:
+By default these templates show Clairnote SN's alternative <a href="http://clairnote.org/key-signatures/">key signatures</a> and <a href="http://clairnote.org/accidental-signs/">accidental signs</a>. If you would rather not use them, just delete the "%" at the beginning of the following line(s) in the template file:
 <pre>% \remove Accidental_engraver
 % \remove Key_engraver</pre>
 Restore the "%" to show them again. (In a LilyPond file a "%" signals that the rest of the line is a comment, which is ignored when the score is rendered.)
 <h2 id="octaves">Staves Spanning More Than Two Octaves</h2>
-The standard Clairnote staff spans two octaves.  For music with a wider pitch range you can optionally use a larger staff with the <code>\cnStaffOctaveSpan</code> command.  For example, you might use <code>\cnStaffOctaveSpan 3</code> for guitar or <code>\cnStaffOctaveSpan 4</code> for piano.  This command should be entered in a staff's <code>\with</code> block or at the very beginning of the music.
+The standard Clairnote SN staff spans two octaves.  For music with a wider pitch range you can optionally use a larger staff with the <code>\cnStaffOctaveSpan</code> command.  For example, you might use <code>\cnStaffOctaveSpan 3</code> for guitar or <code>\cnStaffOctaveSpan 4</code> for piano.  This command should be entered in a staff's <code>\with</code> block or at the very beginning of the music.
 
 To change a staff in the middle of the music – to temporarily extend it up or down an octave to avoid ledger lines – use the commands <code>\cnExtendStaffUp</code> and <code>\cnExtendStaffDown</code>.  Then "unextend" the staff with <code>\cnUnextendStaffUp</code> and <code>\cnUnextendStaffDown</code>.  See the <a title="Staff" href="http://clairnote.org/staff/">Staff</a> page for more about staves with different octave ranges.
 <pre>\new Staff \with {
@@ -98,8 +98,8 @@ Usually you would use different clefs to change the octaves of the staff, but in
   a g f e
 }
 </pre>
-<h2 id="same-file">Clairnote and Traditional Music Notation in the Same File</h2>
-Sometimes you may want to produce files that contain music in both Clairnote and traditional music notation, say for easy comparison.  Instead of the following which will produce a Clairnote staff:
+<h2 id="same-file">Clairnote SN and Traditional Music Notation in the Same File</h2>
+Sometimes you may want to produce files that contain music in both Clairnote SN and traditional music notation, say for easy comparison.  Instead of the following which will produce a Clairnote SN staff:
 <pre>\new Staff {
   % music goes here...
 }</pre>
@@ -107,16 +107,16 @@ Use this to produce a traditional staff:
 <pre>\new TradStaff {
   % music goes here...
 }</pre>
-"TradStaff" is the name of a custom staff context.  It tells LilyPond that you want a standard traditional staff instead of a Clairnote staff.  ( <code>\context TradStaff</code> can also be used where you would use <code>\context Staff </code>)
+"TradStaff" is the name of a custom staff context.  It tells LilyPond that you want a standard traditional staff instead of a Clairnote SN staff.  ( <code>\context TradStaff</code> can also be used where you would use <code>\context Staff </code>)
 <h2 id="noteheads">Notehead Styles</h2>
 Notehead shapes can be customized with the <code>\cnNoteheadStyle</code> command. (See discussion in this <a href="http://clairnote.org/blog/2016/02/notehead-shapes-refined/">blog post</a>.) Here are the available styles:
 
 "default"
-<img class="alignnone size-full" src="http://clairnote.org/images-sn/Clairnote-C-major-scale.svg" alt="C major scale in Clairnote music notation with default noteheads" />
+<img class="alignnone size-full" src="http://clairnote.org/images-sn/Clairnote-C-major-scale.svg" alt="C major scale in Clairnote SN music notation with default noteheads" />
 "lilypond"
-<img class="alignnone size-full" src="http://clairnote.org/images-sn/Clairnote-C-major-scale-lilypond-notes.svg" alt="C major scale in Clairnote music notation with lilypond noteheads" />
+<img class="alignnone size-full" src="http://clairnote.org/images-sn/Clairnote-C-major-scale-lilypond-notes.svg" alt="C major scale in Clairnote SN music notation with lilypond noteheads" />
 "funksol"
-<img class="alignnone size-full" src="http://clairnote.org/images-sn/Clairnote-C-major-scale-funksol-notes.svg" alt="C major scale in Clairnote music notation with funksol noteheads" />
+<img class="alignnone size-full" src="http://clairnote.org/images-sn/Clairnote-C-major-scale-funksol-notes.svg" alt="C major scale in Clairnote SN music notation with funksol noteheads" />
 
 Here's how to change the notehead style for a given staff.
 <pre>\new Staff \with {
@@ -126,6 +126,6 @@ Here's how to change the notehead style for a given staff.
   % music goes here...
 }</pre>
 <h2 id="more">More Examples and Documentation</h2>
-To use LilyPond you will need to refer to the <a href="http://www.lilypond.org/website/manuals.html" target="_blank" rel="external noopener noreferrer">LilyPond manuals</a> which are quite comprehensive.  See <a href="http://clairnote.org/sheet-music/">Sheet Music</a> and <a href="http://clairnote.org/sheet-music/">More Sheet Music</a> for more examples of music typeset in Clairnote using LilyPond. The <a href="http://musicnotation.org/wiki/LilyPond" rel="external">LilyPond page</a> of the Music Notation Project Wiki offers some additional information about using LilyPond with alternative notation systems like Clairnote.
+To use LilyPond you will need to refer to the <a href="http://www.lilypond.org/website/manuals.html" target="_blank" rel="external noopener noreferrer">LilyPond manuals</a> which are quite comprehensive.  See <a href="http://clairnote.org/sheet-music/">Sheet Music</a> and <a href="http://clairnote.org/sheet-music/">More Sheet Music</a> for more examples of music typeset in Clairnote SN using LilyPond. The <a href="http://musicnotation.org/wiki/LilyPond" rel="external">LilyPond page</a> of the Music Notation Project Wiki offers some additional information about using LilyPond with alternative notation systems like Clairnote SN.
 
-Please <a href="http://clairnote.org/about/#contact">contact us</a> if you are interested in using LilyPond to create sheet music in Clairnote. If there is a piece of music you would like to see in Clairnote, we can help. See <a title="Sheet Music" href="http://clairnote.org/sheet-music/">Sheet Music</a> for more details.
+Please <a href="http://clairnote.org/about/#contact">contact us</a> if you are interested in using LilyPond to create sheet music in Clairnote SN. If there is a piece of music you would like to see in Clairnote SN, we can help. See <a title="Sheet Music" href="http://clairnote.org/sheet-music/">Sheet Music</a> for more details.
