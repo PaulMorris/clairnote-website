@@ -26,15 +26,15 @@ LilyBin lets you try LilyPond before installing it, and is also a way to use Lil
 
 <strong>Option 1: Use LilyBin</strong>
 
-1. Go to <a href="http://lilybin.clairnote.org" target="_blank" rel="noopener noreferrer">LilyBin + Clairnote</a> (<a href="http://lilybin.clairnote.org" target="_blank" rel="noopener noreferrer">lilybin.clairnote.org</a>) a version of LilyBin that supports Clairnote SN music notation.
+1. Go to <a href="http://lilybin.clairnote.org" target="_blank" rel="noopener noreferrer">LilyBin + Clairnote</a> (<a href="http://lilybin.clairnote.org" target="_blank" rel="noopener noreferrer">lilybin.clairnote.org</a>) a version of LilyBin that supports Clairnote SN (and Clairnote).
 
-2. Note the <code>\include "clairnote.ly"</code> line at the top of your LilyPond file.
+2. Near the top of the LilyPond file, delete the <code>%</code> in the line <code>% clairnote-type = sn</code>.  This uncomments the line, which sets the <code>clairnote-type</code> variable to <code>sn</code>.  (Leave the <code>\include "clairnote.ly"</code> line as it is.)
 
-3. Edit and engrave your file (click "Preview") and it will be rendered in Clairnote SN music notation.
+3. Edit and engrave the file (click "Preview") and it will be rendered in Clairnote SN music notation.  (Note that for Clairnote SN, you will need to use the unstable (development) version of LilyPond.)
 
 <strong>Option 2: Install LilyPond</strong>
 
-1. Download and install <a href="http://lilypond.org" target="_blank" rel="external noopener noreferrer">LilyPond</a>, preferably the latest 2.19.x development version (or the 2.18.2 stable version).
+1. Download and install <a href="http://lilypond.org" target="_blank" rel="external noopener noreferrer">LilyPond</a>. For Clairnote SN you will need the latest 2.19.x unstable (development) version of LilyPond.
 
 2. Download and install <a href="http://www.frescobaldi.org/">Frescobaldi</a> (optional but highly recommended).  Frescobaldi is an editor designed specifically for use with LilyPond that offers a lot of nice features like PDF preview, text highlighting, auto-complete, midi playback, etc. It helps make LilyPond easier to use and learn.
 
@@ -42,17 +42,18 @@ LilyBin lets you try LilyPond before installing it, and is also a way to use Lil
 <p style="padding-left: 30px;"><strong><a href="http://clairnote.org/files/clairnote.ly">clairnote.ly</a></strong>
 Released under the <a href="http://www.gnu.org/licenses/gpl.html" target="_blank" rel="noopener noreferrer">GNU General Public License</a> version 3 (<a href="http://www.gnu.org/licenses/gpl-3.0-standalone.html" target="_blank" rel="noopener noreferrer">html</a> <a href="http://www.gnu.org/licenses/gpl-3.0.txt" target="_blank" rel="noopener noreferrer">txt</a>).
 Development: <a href="https://github.com/PaulMorris/LilyPond-Clairnote/" target="_blank" rel="noopener noreferrer">git repo</a>.</p>
-(If you are using LilyPond 2.18.2 download this <a href="http://clairnote.org/files/20170714/clairnote.ly">earlier version of clairnote.ly</a>.)
 
-4. Open a LilyPond music file (.ly) (using Frescobaldi) and add the following line near the top.
-<pre>\include "clairnote.ly"</pre>
-This <em>includes</em> the <code>clairnote.ly</code> file in your LilyPond file, providing additional code that allows LilyPond to render/engrave the file in Clairnote SN music notation.  Including a file works the same as if you had cut and pasted the contents of one file into another file (see <a href="http://lilypond.org/doc/v2.18/Documentation/notation/including-lilypond-files.html" target="_blank" rel="external noopener noreferrer"><code>\include</code></a>).
+4. Open a LilyPond music file (.ly) (using Frescobaldi) and add the following lines near the top.  (They must be in this order.)
+<pre>clairnote-type = sn
+\include "clairnote.ly"
+</pre>
+This sets the <code>clairnote-type</code> variable to <code>sn</code> and <em>includes</em> the <code>clairnote.ly</code> file in your LilyPond file, providing additional code that allows LilyPond to render/engrave the file in Clairnote SN music notation.  Including a file works the same as if you had cut and pasted the contents of one file into another file (see <a href="http://lilypond.org/doc/v2.18/Documentation/notation/including-lilypond-files.html" target="_blank" rel="external noopener noreferrer"><code>\include</code></a>).
 
 5. Place the <code>clairnote.ly</code> file in the same directory as your LilyPond file(s) or somewhere else where LilyPond can access it (see <a href="http://lilypond.org/doc/v2.18/Documentation/notation/including-lilypond-files.html" target="_blank" rel="external noopener noreferrer"><code>\include</code></a>).  In <a href="http://www.frescobaldi.org/">Frescobaldi</a> you can designate a directory that contains files that you want to include and then you can always include those files when using Frescobaldi.  To set this up go to Preferences &gt; LilyPond Preferences.
 
 6. Edit your LilyPond file and engrave it with LilyPond.  It will be rendered in Clairnote SN music notation.
 
-Note: if you are converting an existing LilyPond file (.ly), make sure it is for LilyPond version 2.18.0 or higher. Look for a <code>\version</code> statement that should be at the top of the file. If it is an earlier version, update the file using <a href="http://www.lilypond.org/doc/v2.18/Documentation/usage/updating-files-with-convert_002dly" target="_blank" rel="external noopener noreferrer">convert-ly</a>.  (The <a href="http://www.mutopiaproject.org/" target="_blank" rel="external noopener noreferrer">Mutopia Project</a> offers LilyPond files for free download, but some will need to be updated.)
+Note: if you are converting an existing LilyPond file (.ly), make sure it is for LilyPond version 2.19.49 or higher. Look for a <code>\version</code> statement that should be at the top of the file. If it is an earlier version, update the file using <a href="http://www.lilypond.org/doc/v2.18/Documentation/usage/updating-files-with-convert_002dly" target="_blank" rel="external noopener noreferrer">convert-ly</a>.  (The <a href="http://www.mutopiaproject.org/" target="_blank" rel="external noopener noreferrer">Mutopia Project</a> offers LilyPond files for free download, but some will need to be updated.)
 <h2 id="templates">Clairnote SN Template Files</h2>
 You may want to use one of these template files to get started. They are just variations on some of the official <a href="http://www.lilypond.org/doc/v2.18/Documentation/learning/templates" target="_blank" rel="external noopener noreferrer">LilyPond Template Files</a>.  Note the line <code>\include "clairnote.ly"</code> at the top.
 <ul>
