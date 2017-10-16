@@ -26,38 +26,56 @@ get_header('clairnote-sn'); ?>
 
 <p>Explicit and Direct &mdash; Each of the twelve notes of the chromatic scale
 has its own unique vertical position on the staff.
-There are no indirect "invisible" alterations by key signatures or accidental signs.
+There are no indirect alterations by key signatures or accidental signs.
 Play what you see and see what you play.</p>
 
-<img class="alignnone size-full" src="http://clairnote.org/images/Clairnote-chromatic-scale-eighth-notes.svg" alt="Chromatic scale in Clairnote music notation" />
+<img class="alignnone size-full"
+    src="http://clairnote.org/images-sn/Clairnote-chromatic-scale-eighth-notes.svg"
+    alt="Chromatic scale in Clairnote SN music notation" />
 
 <p>Consistent and Intuitive &mdash; It is easy to see the
 interval relationships between notes because they are represented clearly and
 consistently by the vertical positions of the notes on the staff.
 Hear what you see and see what you hear.</p>
 
-<img class="alignnone size-full" src="http://clairnote.org/images/Clairnote-C-major-scale-whole-steps-half-steps.svg" alt="C major scale in Clairnote music notation" />
+<img class="alignnone size-full"
+    src="http://clairnote.org/images-sn/Clairnote-C-major-scale-whole-steps-half-steps.svg"
+    alt="C major scale in Clairnote SN music notation" />
 
+<?php /*
 <p>Whether a note is solid or hollow is its most prominent visual feature,
 so solid and hollow noteheads are used to help convey <em>pitch</em> rather than duration.
 The vertical positions on the staff alternate between solid and hollow noteheads.</p>
 
-<img class="alignnone size-full" src="http://clairnote.org/images/Clairnote-solid-hollow-notes.svg" alt="Solid and hollow notes in Clairnote music notation" />
+<img class="alignnone size-full"
+    src="http://clairnote.org/images-sn/Clairnote-solid-hollow-notes.svg"
+    alt="Solid and hollow notes in Clairnote SN music notation" />
 
 <p>This visual pattern makes individual notes easier to identify and interval
 relationships easier to see.</p>
+*/ ?>
 
-<img class="alignnone size-full" src="http://clairnote.org/images/Clairnote-C-major-scale-major-thirds-minor-thirds.svg" alt="Thirds in the key of C Major in Clairnote music notation" />
+<p>The vertical positions on the staff alternate between line-notes and
+space-notes.  This consistent visual pattern makes individual notes easier to
+identify and interval relationships easier to see.</p>
+
+<img class="alignnone size-full"
+    src="http://clairnote.org/images-sn/Clairnote-C-major-scale-major-thirds-minor-thirds.svg"
+    alt="Thirds in the key of C Major in Clairnote SN music notation" />
 
 <p>Any given note looks the same in every octave. This
 makes it easy to identify notes and easy to play music in any octave.</p>
 
-<img class="alignnone size-full" src="http://clairnote.org/images/Clairnote-octaves-C-major-2.svg" alt="C major scale in Clairnote music notation showing octaves" />
+<img class="alignnone size-full"
+    src="http://clairnote.org/images-sn/Clairnote-octaves-C-major-2.svg"
+    alt="C major scale in Clairnote SN music notation showing octaves" />
 
-<p>Traditional rhythm symbols are used except half notes
-are given a double stem to distinguish them from quarter notes.</p>
+<p>Traditional rhythm symbols are used in Clairnote SN. (Unlike standard
+Clairnote.)</p>
 
-<img class="alignnone size-full" src="http://clairnote.org/images/Clairnote-half-notes-quarter-notes-brief.svg" alt="Half notes and quarter notes in Clairnote DN" />
+<img class="alignnone size-full"
+    src="http://clairnote.org/images-sn/Clairnote-half-notes-quarter-notes-brief.svg"
+    alt="Half notes and quarter notes in Clairnote SN" />
 
 
 <h2>Look and Listen Closer (AudioVisualizer)</h2>
@@ -360,7 +378,7 @@ For intervals, notice how easy it is to identify them and to differentiate betwe
 <h2>Intervals and Chords</h2>
 <p>In traditional music notation different intervals and chords may look the same
 (e.g. major and minor thirds and triads).
-In Clairnote the differences between intervals
+In Clairnote SN the differences between intervals
 are always clearly visible making it easy to see the relationships between
 notes and understand the common patterns of music found in chords, scales, keys, etc.
 Improvising and playing by ear involve playing by interval (by relative pitch),
@@ -370,7 +388,9 @@ so clearly seeing each interval as you play will help support learning these ski
 <a title="Chords" href="http://clairnote.org/chords/">Chords</a>, and
 <a title="Scales" href="http://clairnote.org/scales/">Scales</a> for more illustrations and discussion.</p>
 
-<img class="alignnone size-full" src="http://clairnote.org/images/Clairnote-and-traditional-thirds-and-triads.svg" alt="Thirds and triads in Clairnote and traditional notation" />
+<img class="alignnone size-full"
+    src="http://clairnote.org/images-sn/Clairnote-and-traditional-thirds-and-triads.svg"
+    alt="Thirds and triads in Clairnote SN and traditional notation" />
 
 
 <h2>Clefs and Octaves</h2>
@@ -378,33 +398,37 @@ so clearly seeing each interval as you play will help support learning these ski
 spaces of the staff
 change depending on the current clef (treble, bass, alto, tenor, etc.).
 Piano music entails reading in two different clefs at once.
-In Clairnote the lines and spaces of the staff look the same in every octave and always mean the
+In Clairnote SN the lines and spaces of the staff look the same in every octave and always mean the
 same thing in every octave, so there is no need to learn to read different clefs.</p>
 
-<p>Clairnote DN's <a href="http://clairnote.org/clefs/">clef symbols</a>
+<p>Clairnote SN's <a href="http://clairnote.org/clefs/">clef symbols</a>
 simply indicate the octave register of the staff, and if you can read one
 octave you can read them all.</p>
 
-<img class="alignnone size-full" src="http://clairnote.org/images/Clairnote-clefs-and-octaves-comparison.svg" alt="Clefs and octaves in Clairnote and traditional notation" />
+<img class="alignnone size-full"
+    src="http://clairnote.org/images-sn/Clairnote-clefs-and-octaves-comparison.svg"
+    alt="Clefs and octaves in Clairnote SN and traditional notation" />
 
 
 <h2>Key Signatures and Accidental Signs</h2>
 <p>In traditional music notation the notes on the staff may be altered
 by accidental signs (sharps, flats, naturals, double sharps, double flats)
 or by one of fifteen different key signatures that have to be learned and
-remembered in order to play the correct notes. With Clairnote you simply
+remembered in order to play the correct notes. With Clairnote SN you simply
 play the notes as they appear on the staff.</p>
 
-<p>Clairnote DN&#8217;s <a href="http://clairnote.org/key-signatures/">key signatures</a> and
+<p>Clairnote SN&#8217;s <a href="http://clairnote.org/key-signatures/">key signatures</a> and
 <a href="http://clairnote.org/accidental-signs/">accidental signs</a>
 do not complicate the process of reading notes. They only provide <em>supplemental</em>
 information &mdash; all the same information conveyed by traditional notation,
 like the current key, when a note is an accidental (i.e. not in the current key),
 and the different names of enharmonically equivalent notes.</p>
 
-<img class="alignnone size-full" src="http://clairnote.org/images/Clairnote-and-traditional-key-signature-accidental-signs-brief.svg" alt="Key signature and accidental signs in Clairnote DN" />
+<img class="alignnone size-full"
+    src="http://clairnote.org/images-sn/Clairnote-and-traditional-key-signature-accidental-signs-brief.svg"
+    alt="Key signature and accidental signs in Clairnote SN" />
 
-
+<?php /*
 <h2>Sheet Music Videos</h2>
 <p>A taste of reading music in Clairnote music notation.</p>
 
@@ -434,11 +458,11 @@ and the different names of enharmonically equivalent notes.</p>
 <h2>Sheet Music and Software</h2>
 <p>There are currently over 600 works in the Clairnote <a href="http://clairnote.org/sheet-music-library/">Sheet Music Library</a>,
 all available to download for free as PDFs.  They were created with LilyPond – free / open-source music notation software that
-anyone can use to automatically convert traditional music files into Clairnote DN.
+anyone can use to automatically convert traditional music files into Clairnote SN.
 (See <a title="Software: LilyPond" href="http://clairnote.org/software/">Software: LilyPond</a>.)
 A collection of fiddle tunes, a piano lesson book, and a number of other works are available under
 <a href="http://clairnote.org/sheet-music/">More Sheet Music</a>.</p>
-<p><img class="alignnone size-full" src="http://clairnote.org/images/Clairnote-blue-danube-excerpt.svg" alt="Blue Danube Waltz excerpt in Clairnote music notation" /></p>
+<p><img class="alignnone size-full" src="http://clairnote.org/images-sn/Clairnote-blue-danube-excerpt.svg" alt="Blue Danube Waltz excerpt in Clairnote SN music notation" /></p>
 <p>Here are a few well known pieces from the Clairnote <a href="http://clairnote.org/sheet-music-library/">Sheet Music Library</a> (PDF files):</p>
 <ul>
 <li><a href="http://clairnote.org/more-sheet-music-files/Twinkle-little-star-Clairnote-let.pdf" target="_blank">Twinkle, Twinkle, Little Star</a>, arranged for piano</li>
@@ -450,6 +474,7 @@ A collection of fiddle tunes, a piano lesson book, and a number of other works a
 <li><a href="http://clairnote.org/sheet-music-files/JoplinS/maple/maple-let.pdf" target="_blank">Maple Leaf Rag</a> by Scott Joplin, for piano</li>
 </ul>
 
+*/ ?>
 
 </div><!-- .entry-content -->
 </article><!-- #post -->
