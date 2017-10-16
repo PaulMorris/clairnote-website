@@ -30,15 +30,21 @@ function enqueue_clairnote_js_css() {
     if (is_page(array(29, 3646))) {
         enqueue_js('howler', $uri . '/js/howler.min.js');
         enqueue_js('audiovisualizer', $uri . '/js/audiovisualizer.js');
+        if (is_page(3646)) {
+            enqueue_js('audiovisualizer-sn-home', $uri . '/js/audiovisualizer-sn.js');
+        }
         enqueue_js('audiovisualizer-clairnote', $uri . '/js/audiovisualizer-clairnote.js');
         wp_register_style('audiovisualizer-style', $uri . '/css/audiovisualizer.css');
         wp_enqueue_style('audiovisualizer-style');
     }
 
     // Game-Learn (1039)
-    if (is_page(array(1039))) {
+    if (is_page(array(1039, 3695))) {
         enqueue_js('howler-game', $uri . '/js/howler.min.js');
         enqueue_js('audiovisualizer-game', $uri . '/js/audiovisualizer.js');
+        if (is_page(3695)) {
+            enqueue_js('audiovisualizer-sn-game', $uri . '/js/audiovisualizer-sn.js');
+        }
         enqueue_js('game', $uri . '/js/game.js');
         wp_register_style('audiovisualizer-style-for-game', $uri . '/css/audiovisualizer.css');
         wp_enqueue_style('audiovisualizer-style-for-game');
