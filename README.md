@@ -1,4 +1,5 @@
 # clairnote-website
 Code for the Clairnote website: http://clairnote.org
 
-This code is for the "AudioVisualizer" on the home page of the site and the "Learn Clairnote" game here: http://clairnote.org/learn/
+The site is powered by WordPress and uses a child theme based on the
+TwentyTwelve theme.
