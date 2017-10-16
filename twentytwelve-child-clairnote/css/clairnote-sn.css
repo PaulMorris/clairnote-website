@@ -1,9 +1,5 @@
-/*
-rgb(90, 128, 90)
-rgb(134, 162, 124)
-*/
 body {
-    background: #d6dec3;
+    background: #dcdec3;
 }
 .site-header {
     background-color: rgb(90, 128, 90);
@@ -23,7 +19,8 @@ body {
 
 
     .main-navigation li:hover,
-    .main-navigation li ul li a {
+    .main-navigation li ul li a,
+    .main-navigation li ul li a:focus {
         background-color: rgb(134, 162, 124);
     }
 
@@ -34,5 +31,8 @@ body {
 
     #menu-clairnote-sn > li:first-child {
         margin-left: -1rem;
+    }
+    .site-content {
+        width: 100%;
     }
 }
