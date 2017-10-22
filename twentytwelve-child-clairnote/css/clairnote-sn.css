@@ -4,6 +4,9 @@ body {
 .site-header {
     background-color: rgb(90, 128, 90);
 }
+#menu-clairnote-sn .menu-item-has-children > a:first-child {
+    display: none;
+}
 
 @media screen and (min-width: 600px) {
     .site-header {
@@ -17,6 +20,9 @@ body {
         height: 44px;
     }
 
+    #menu-clairnote-sn .menu-item-has-children > a:first-child {
+        display: inline-block;
+    }
 
     .main-navigation li:hover,
     .main-navigation li ul li a,
