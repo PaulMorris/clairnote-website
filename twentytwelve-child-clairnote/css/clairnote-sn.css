@@ -7,6 +7,9 @@ body {
 #menu-clairnote-sn .menu-item-has-children > a:first-child {
     display: none;
 }
+.site-header h1 a {
+    font-size: 83.3%;
+}
 
 @media screen and (min-width: 600px) {
     .site-header {
