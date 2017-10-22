@@ -318,11 +318,6 @@ footer[role="contentinfo"] a {
     .main-navigation li ul li a:hover {
         background-color: #7DAFD5;
     }
-    #menu-main-menu > li:nth-child(1):hover,
-    #menu-main-menu > li:nth-child(1) a:hover {
-        color: #ffffff;
-        cursor: pointer;
-    }
 }
 
 /* Minimum width of 740 pixels. (more than 740px wide) */
