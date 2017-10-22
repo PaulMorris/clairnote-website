@@ -72,14 +72,18 @@ function enqueue_clairnote_js_css() {
         wp_enqueue_style('clairnote-sn-style');
     }
 
-    // Script to add link to switch between Clairnote and Clairnote SN
-    if (is_page() && !(  // no link on these pages
-        is_page(3377) || // notetrainer
-        is_page(2751) || // sheet music library
-        is_page(8)    || // more sheet music
-        is_page(2815) || // handwritten
-        is_page(3057)    // musescore
-    )) {
+    // Script to modify link to switch between Clairnote and Clairnote SN,
+    // not added to home pages and pages without an SN version.
+    if (is_page() &&
+        !is_page(array(
+            29,   // Clairnote home
+            3646, // Clairnote SN home
+            3377, // notetrainer
+            2751, // sheet music library
+            8,    // more sheet music
+            2815, // handwritten sheet music
+            3057  // musescore
+        ))) {
         enqueue_js('version-toggle', $uri . '/js/clairnote-sn-switch.js');
     }
 }

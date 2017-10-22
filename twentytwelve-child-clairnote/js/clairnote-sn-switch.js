@@ -9,7 +9,6 @@
 
     var isSN = path[0] === 'sn',
         toPath = isSN ? path.slice(1) : Array.concat(['sn'], path),
-        isHome = isSN ? path.length === 1 : path.length === 0,
 
         outer_ul = document.getElementById(isSN ? 'menu-clairnote-sn' : 'menu-main-menu'),
         outer_ul_li = outer_ul.firstElementChild,
@@ -17,9 +16,8 @@
         ul = outer_ul_li.querySelector('.sub-menu'),
         ul_lis = document.querySelectorAll('li'),
         ul_li = ul_lis[2],
-        ul_li_a = ul_li.firstElementChild,
-        modifier = isHome ? ' — Home' : ' — Current Page';
+        ul_li_a = ul_li.firstElementChild;
 
     ul_li_a.href = 'http://clairnote.org/' + toPath.join('/');
-    ul_li_a.textContent = 'Clairnote' + (isSN ? '' : ' SN') + modifier;
+    ul_li_a.textContent = 'Clairnote' + (isSN ? '' : ' SN') + ' — Current Page';
 })();
