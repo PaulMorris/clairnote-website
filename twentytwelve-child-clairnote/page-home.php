@@ -26,7 +26,7 @@ get_header(); ?>
 
 <p>Explicit and Direct &mdash; Each of the twelve notes of the chromatic scale
 has its own unique vertical position on the staff.
-There are no indirect "invisible" alterations by key signatures or accidental signs.
+There are no indirect alterations by key signatures or accidental signs.
 Play what you see and see what you play.</p>
 
 <img class="alignnone size-full" src="http://clairnote.org/images/Clairnote-chromatic-scale-eighth-notes.svg" alt="Chromatic scale in Clairnote music notation" />
