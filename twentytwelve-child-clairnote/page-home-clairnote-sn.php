@@ -428,41 +428,38 @@ and the different names of enharmonically equivalent notes.</p>
     src="http://clairnote.org/images-sn/Clairnote-and-traditional-key-signature-accidental-signs-brief.svg"
     alt="Key signature and accidental signs in Clairnote SN" />
 
-<?php /*
+
 <h2>Sheet Music Videos</h2>
-<p>A taste of reading music in Clairnote music notation.</p>
+<p>A taste of reading music in Clairnote SN music notation.</p>
 
 <p>
-<video id="videoRainbow" controls="controls" preload="metadata" width="640" height="360"><source src="http://clairnote.org/videos/Somewhere-Over-the-Rainbow-Clairnote.webm" type="video/webm" /><source src="http://clairnote.org/videos/Somewhere-Over-the-Rainbow-Clairnote.mp4" type="video/mp4" />Your browser does not support the <code>video</code> element.</video>
-<video id="videoDoReMi" controls="controls" preload="metadata" width="640" height="360"><source src="http://clairnote.org/videos/Do-Re-Mi-Clairnote.webm" type="video/webm" /><source src="http://clairnote.org/videos/Do-Re-Mi-Clairnote.mp4" type="video/mp4" />Your browser does not support the <code>video</code> element.</video>
-<video id="videoBlueDanube" controls="controls" preload="auto" width="640" height="360"><source src="http://clairnote.org/videos/Strauss-Blue-Danube-Waltz-Clairnote.webm" type="video/webm" /><source src="http://clairnote.org/videos/Strauss-Blue-Danube-Waltz-Clairnote.mp4" type="video/mp4" />Your browser does not support the <code>video</code> element.</video>
-<video id="videoGreensleeves" controls="controls" preload="metadata" width="640" height="360"><source src="http://clairnote.org/videos/Traditional-Greensleeves-Clairnote.webm" type="video/webm" /><source src="http://clairnote.org/videos/Traditional-Greensleeves-Clairnote.mp4" type="video/mp4" />Your browser does not support the <code>video</code> element.</video>
-<video id="videoBachPrelude" controls="controls" preload="metadata" width="640" height="360"><source src="http://clairnote.org/videos/Bach-WTK1-Prelude1-Clairnote.webm" type="video/webm" /><source src="http://clairnote.org/videos/Bach-WTK1-Prelude1-Clairnote.mp4" type="video/mp4" />Your browser does not support the <code>video</code> element.</video>
-<video id="videoElise" controls="controls" preload="metadata" width="640" height="360"><source src="http://clairnote.org/videos/Beethoven-Fuer-Elise-Clairnote.webm" type="video/webm" /><source src="http://clairnote.org/videos/Beethoven-Fuer-Elise-Clairnote.mp4" type="video/mp4" />Your browser does not support the <code>video</code> element.</video>
-<video id="videoEntertainer" controls="controls" preload="metadata" width="640" height="360"><source src="http://clairnote.org/videos/Joplin-Entertainer-Clairnote.webm" type="video/webm" /><source src="http://clairnote.org/videos/Joplin-Entertainer-Clairnote.mp4" type="video/mp4" />Your browser does not support the <code>video</code> element.</video>
+<video id="videoRainbow" controls="controls" preload="metadata" width="640" height="360"><source src="http://clairnote.org/videos/Somewhere-Over-the-Rainbow-Clairnote-SN.webm" type="video/webm" /><source src="http://clairnote.org/videos/Somewhere-Over-the-Rainbow-Clairnote-SN.mp4" type="video/mp4" />Your browser does not support the <code>video</code> element.</video>
+<video id="videoDoReMi" controls="controls" preload="metadata" width="640" height="360"><source src="http://clairnote.org/videos/Do-Re-Mi-Clairnote-SN.webm" type="video/webm" /><source src="http://clairnote.org/videos/Do-Re-Mi-Clairnote-SN.mp4" type="video/mp4" />Your browser does not support the <code>video</code> element.</video>
+<video id="videoBlueDanube" controls="controls" preload="auto" width="640" height="360"><source src="http://clairnote.org/videos/Strauss-Blue-Danube-Waltz-Clairnote-SN.webm" type="video/webm" /><source src="http://clairnote.org/videos/Strauss-Blue-Danube-Waltz-Clairnote-SN.mp4" type="video/mp4" />Your browser does not support the <code>video</code> element.</video>
+<video id="videoGreensleeves" controls="controls" preload="metadata" width="640" height="360"><source src="http://clairnote.org/videos/Traditional-Greensleeves-Clairnote-SN.webm" type="video/webm" /><source src="http://clairnote.org/videos/Traditional-Greensleeves-Clairnote-SN.mp4" type="video/mp4" />Your browser does not support the <code>video</code> element.</video>
+<video id="videoBachPrelude" controls="controls" preload="metadata" width="640" height="360"><source src="http://clairnote.org/videos/Bach-WTK1-Prelude1-Clairnote-SN.webm" type="video/webm" /><source src="http://clairnote.org/videos/Bach-WTK1-Prelude1-Clairnote-SN.mp4" type="video/mp4" />Your browser does not support the <code>video</code> element.</video>
+<video id="videoElise" controls="controls" preload="metadata" width="640" height="360"><source src="http://clairnote.org/videos/Beethoven-Fuer-Elise-Clairnote-SN.webm" type="video/webm" /><source src="http://clairnote.org/videos/Beethoven-Fuer-Elise-Clairnote-SN.mp4" type="video/mp4" />Your browser does not support the <code>video</code> element.</video>
+<video id="videoEntertainer" controls="controls" preload="metadata" width="640" height="360"><source src="http://clairnote.org/videos/Joplin-Entertainer-Clairnote-SN.webm" type="video/webm" /><source src="http://clairnote.org/videos/Joplin-Entertainer-Clairnote-SN.mp4" type="video/mp4" />Your browser does not support the <code>video</code> element.</video>
 </p>
 
 <ul>
-<li><a href="javascript:" onClick="avr.videoToggler('videoBlueDanube')">The Blue Danube Waltz, by J.J. Strauss</a> – <a href="http://clairnote.org/sheet-music-files/StraussJJ/O314/blue_danube/blue_danube-let.pdf" target="_blank">Sheet Music (PDF)</a></li>
+<li><a href="javascript:" onClick="avr.videoToggler('videoBlueDanube')">The Blue Danube Waltz, by J.J. Strauss</a><?php /* – <a href="http://clairnote.org/sheet-music-files/StraussJJ/O314/blue_danube/blue_danube-let.pdf" target="_blank">Sheet Music (PDF)</a> */ ?></li>
 <li><a href="javascript:" onClick="avr.videoToggler('videoRainbow')">Somewhere Over the Rainbow</a></li>
 <li><a href="javascript:" onClick="avr.videoToggler('videoDoReMi')">Do Re Mi from the Sound of Music</a></li>
-<li><a href="javascript:" onClick="avr.videoToggler('videoGreensleeves')">Greensleeves</a> – <a href="http://clairnote.org/sheet-music-files/Traditional/greensleeves/greensleeves-let.pdf" target="_blank">Sheet Music (PDF)</a></li>
-<li><a href="javascript:" onClick="avr.videoToggler('videoBachPrelude')">The Well Tempered Clavier I, Prelude I, by J.S. Bach</a> – <a href="http://clairnote.org/sheet-music-files/BachJS/BWV846/wtk1-prelude1/wtk1-prelude1-let.pdf" target="_blank">Sheet Music (PDF)</a></li>
-<li><a href="javascript:" onClick="avr.videoToggler('videoElise')">Für Elise by L.V. Beethoven</a> – <a href="http://clairnote.org/sheet-music-files/BeethovenLv/WoO59/fur_Elise_WoO59/fur_Elise_WoO59-let.pdf" target="_blank">Sheet Music (PDF)</a></li>
-<li><a href="javascript:" onClick="avr.videoToggler('videoEntertainer')">The Entertainer by Scott Joplin</a> – <a href="http://clairnote.org/sheet-music-files/JoplinS/entertainer/entertainer-let.pdf" target="_blank">Sheet Music (PDF)</a></li>
+<li><a href="javascript:" onClick="avr.videoToggler('videoGreensleeves')">Greensleeves</a><?php /* – <a href="http://clairnote.org/sheet-music-files/Traditional/greensleeves/greensleeves-let.pdf" target="_blank">Sheet Music (PDF)</a> */ ?></li>
+<li><a href="javascript:" onClick="avr.videoToggler('videoBachPrelude')">The Well Tempered Clavier I, Prelude I, by J.S. Bach</a><?php /* – <a href="http://clairnote.org/sheet-music-files/BachJS/BWV846/wtk1-prelude1/wtk1-prelude1-let.pdf" target="_blank">Sheet Music (PDF)</a> */ ?></li>
+<li><a href="javascript:" onClick="avr.videoToggler('videoElise')">Für Elise by L.V. Beethoven</a><?php /* – <a href="http://clairnote.org/sheet-music-files/BeethovenLv/WoO59/fur_Elise_WoO59/fur_Elise_WoO59-let.pdf" target="_blank">Sheet Music (PDF)</a> */ ?></li>
+<li><a href="javascript:" onClick="avr.videoToggler('videoEntertainer')">The Entertainer by Scott Joplin</a><?php /* – <a href="http://clairnote.org/sheet-music-files/JoplinS/entertainer/entertainer-let.pdf" target="_blank">Sheet Music (PDF)</a> */ ?></li>
 </ul>
 
 <p>(Videos created with <a href="http://www.lilypond.org" target="_blank">LilyPond</a> and <a href="https://github.com/aspiers/ly2video" target="_blank">ly2video</a>, with many thanks to those who work on these projects!)</p>
 
 
-<h2>Sheet Music and Software</h2>
-<p>There are currently over 600 works in the Clairnote <a href="http://clairnote.org/sheet-music-library/">Sheet Music Library</a>,
-all available to download for free as PDFs.  They were created with LilyPond – free / open-source music notation software that
-anyone can use to automatically convert traditional music files into Clairnote SN.
-(See <a title="Software: LilyPond" href="http://clairnote.org/software/">Software: LilyPond</a>.)
-A collection of fiddle tunes, a piano lesson book, and a number of other works are available under
-<a href="http://clairnote.org/sheet-music/">More Sheet Music</a>.</p>
+<h2>Software</h2>
+<p>Sheet music in Clairnote SN can be created with LilyPond – free (and open-source) music notation software. Use LilyPond to create new sheet music from scratch or to automatically convert existing music files into Clairnote SN.
+See <a title="Software: LilyPond" href="http://clairnote.org/sn/software/">Software: LilyPond</a>.</p>
 <p><img class="alignnone size-full" src="http://clairnote.org/images-sn/Clairnote-blue-danube-excerpt.svg" alt="Blue Danube Waltz excerpt in Clairnote SN music notation" /></p>
+<?php /*
 <p>Here are a few well known pieces from the Clairnote <a href="http://clairnote.org/sheet-music-library/">Sheet Music Library</a> (PDF files):</p>
 <ul>
 <li><a href="http://clairnote.org/more-sheet-music-files/Twinkle-little-star-Clairnote-let.pdf" target="_blank">Twinkle, Twinkle, Little Star</a>, arranged for piano</li>
