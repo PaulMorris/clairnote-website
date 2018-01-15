@@ -1,5 +1,6 @@
 // Modifies the url and text of the menu item for switching between
-// Clairnote and Clairnote SN versions of pages.
+// Clairnote and Clairnote SN versions of pages. And sets a global flag.
+clairnoteType = "dn";
 (function() {
     function newMenuItemData(pathname) {
         var path = pathname.split('/').filter(function(x) { return x !== ""; }),
@@ -21,4 +22,8 @@
 
     ul_li_a.href = item.url;
     ul_li_a.textContent = item.text;
+
+    if (item.isSN) {
+        clairnoteType = "sn";
+    }
 })();

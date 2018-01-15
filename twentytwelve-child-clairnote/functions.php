@@ -52,8 +52,19 @@ function enqueue_clairnote_js_css() {
         wp_enqueue_style('game-style');
     }
 
+    // Clairnote SN css (SN home is 3646)
+    // must come before sheet music library css files
+    global $post;
+    if (is_page() && ($post->post_parent=='3646' || is_page('3646'))) {
+        wp_register_style('clairnote-sn-style', $uri . '/css/clairnote-sn.css');
+        wp_enqueue_style('clairnote-sn-style');
+    }
+
     // Sheet Music Library (2751)
-    if (is_page(array(2751))) {
+    // Clairnote SN Sheet Music Library (3788)
+    if (is_page(array(2751, 3788))) {
+        // The Clairnote type switch js file must be before the library search file.
+        enqueue_js('version-toggle', $uri . '/js/clairnote-sn-switch.js');
         enqueue_js('lunrjs', $uri . '/js/lunr.min.js');
         enqueue_js('library-search', $uri . '/js/sheet-music-library-search-with-data.js');
         wp_register_style('sheet-music-library-style', $uri . '/css/sheet-music-library-search.css');
@@ -63,13 +74,6 @@ function enqueue_clairnote_js_css() {
     // about-and-faq
     if (is_page(array('about'))) {
         wp_enqueue_script('about-script', $uri . '/js/email.js');
-    }
-
-    // Clairnote SN css (SN home is 3646)
-    global $post;
-    if (is_page() && ($post->post_parent=='3646' || is_page('3646'))) {
-        wp_register_style('clairnote-sn-style', $uri . '/css/clairnote-sn.css');
-        wp_enqueue_style('clairnote-sn-style');
     }
 
     // Script to modify link to switch between Clairnote and Clairnote SN,

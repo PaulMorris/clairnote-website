@@ -153,8 +153,8 @@ if (!document.getElementsByClassName) {
           line.textContent = "Setting " + setnum + divider;
 
           var anchors = [
-              makeAnchor("LETTER PDF", settingPath + '-let.pdf', 'Letter Size PDF File', '_blank'),
-              makeAnchor("A4 PDF", settingPath + '-a4.pdf', 'A4 Size PDF File', '_blank'),
+              makeAnchor("LETTER PDF", settingPath + '-' + clairnoteType + '-let.pdf', 'Letter Size PDF File', '_blank'),
+              makeAnchor("A4 PDF", settingPath + '-' + clairnoteType + '-a4.pdf', 'A4 Size PDF File', '_blank'),
               makeAnchor("MIDI", settingPath + '.mid', 'MIDI File', '_blank'),
               makeAnchor("LY", settingPath + '.ly', 'LilyPond File', '_blank')
           ];
@@ -208,9 +208,9 @@ if (!document.getElementsByClassName) {
       if (item[5]) {
           // single ly file, item[5] is the file name without the extension
           var path = pathToDir + item[5];
-          line2.appendChild(makeAnchor("LETTER PDF", path + '-let.pdf', 'Letter Size PDF File', '_blank'));
+          line2.appendChild(makeAnchor("LETTER PDF", path + '-' + clairnoteType + '-let.pdf', 'Letter Size PDF File', '_blank'));
           line2.appendChild(makeDivider());
-          line2.appendChild(makeAnchor("A4 PDF", path + '-a4.pdf', 'A4 Size PDF File', '_blank'));
+          line2.appendChild(makeAnchor("A4 PDF", path + '-' + clairnoteType + '-a4.pdf', 'A4 Size PDF File', '_blank'));
           line2.appendChild(makeDivider());
           line2.appendChild(makeAnchor("MIDI", path + '.mid', 'MIDI File', '_blank'));
           line2.appendChild(makeDivider());

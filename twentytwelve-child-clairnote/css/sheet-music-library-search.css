@@ -208,7 +208,8 @@ ul.filter-panel {
 		margin-bottom: 30px;
 	}
 
-	.menu-main-menu-container {
+	.menu-main-menu-container,
+	.menu-clairnote-sn-container {
 		max-width: none;
 	}
 
@@ -227,7 +228,8 @@ ul.filter-panel {
 		margin-left: -5.57142rem;
 		padding-left: 5.57142rem;
 	}
-  #menu-main-menu > li:first-child {
+  #menu-main-menu > li:first-child,
+	#menu-clairnote-sn > li:first-child {
       margin-left: 1rem;
   }
 }
