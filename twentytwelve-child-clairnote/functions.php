@@ -83,8 +83,6 @@ function enqueue_clairnote_js_css() {
             29,   // Clairnote home
             3646, // Clairnote SN home
             3377, // notetrainer
-            2751, // sheet music library
-            8,    // more sheet music
             2815, // handwritten sheet music
             3057  // musescore
         ))) {
