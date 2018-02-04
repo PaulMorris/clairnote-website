@@ -22,7 +22,7 @@ get_header('clairnote-sn'); ?>
 
 
 <h1 id="audiovisualizer-h1" class="entry-title">Clairnote SN</h1>
-<h2 id="homepage-subtitle">An intuitive notation system that makes music easier to read and understand.</h2>
+<h2 id="homepage-subtitle">An alternative music notation system that makes music easier to read and understand.</h2>
 
 <p>Explicit and Direct &mdash; Each of the twelve notes of the chromatic scale
 has its own unique vertical position on the staff.
