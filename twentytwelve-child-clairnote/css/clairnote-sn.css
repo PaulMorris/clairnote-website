@@ -1,8 +1,8 @@
 body {
-    background: #dcdec3;
+    background: hsl(65, 30%, 90%);
 }
 .site-header {
-    background-color: rgb(90, 128, 90);
+    background-color: hsl(110, 18%, 43%);
 }
 #menu-clairnote-sn .menu-item-has-children > a:first-child {
     display: none;
@@ -13,14 +13,14 @@ body {
 
 @media screen and (min-width: 600px) {
     .site-header {
-        background-color: rgb(134, 162, 124);
+        background-color: hsl(110, 15%, 48%);
     }
     .menu-clairnote-sn-container {
         margin: 0px auto;
         max-width: 67.1428rem;
         padding: 0px 3.57142rem;
-        background-color: rgb(90, 128, 90);
         height: 44px;
+        background-color: hsl(110, 18%, 43%);
     }
 
     #menu-clairnote-sn .menu-item-has-children > a:first-child {
@@ -28,14 +28,14 @@ body {
     }
 
     .main-navigation li:hover,
+    .main-navigation li a:hover,
     .main-navigation li ul li a,
     .main-navigation li ul li a:focus {
-        background-color: rgb(134, 162, 124);
+        background-color: hsl(110, 18%, 33%);
     }
 
-    .main-navigation li a:hover,
     .main-navigation li ul li a:hover {
-        background: #A1D57D;
+        background: hsl(110, 18%, 23%);
     }
 
     #menu-clairnote-sn > li:first-child {

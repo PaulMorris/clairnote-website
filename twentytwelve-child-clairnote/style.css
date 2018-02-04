@@ -13,7 +13,7 @@
     display: none;
 }
 .site-header {
-    background-color: #5A6F80;
+    background-color: hsl(207, 18%, 43%);
     margin-left: -24px;
     margin-right: -24px;
     /* z-index prevents footnotes "[1]" from appearing on top of nav bar */
@@ -57,7 +57,7 @@ img.wp-post-image {
 }
 body {
     color: #333333;
-    background-color: #C3D2DE;
+    background-color: hsl(207, 15%, 93%);
 }
 a,
 .widget-area .widget a,
@@ -263,15 +263,15 @@ footer[role="contentinfo"] a {
         padding: 0px;
         margin: 0px;
         width: 100%;
-        background-color: rgb(124, 145, 162);
         height: 44px;
+        background-color: hsl(207, 15%, 48%);
     }
     .menu-main-menu-container {
         margin: 0px auto;
         max-width: 67.1428rem;
         padding: 0px 3.57142rem;
-        background-color: rgb(90, 111, 128);
         height: 44px;
+        background-color: hsl(207, 18%, 43%);
     }
     .main-navigation {
         margin: 0px;
@@ -288,11 +288,10 @@ footer[role="contentinfo"] a {
         padding: 0px 0.3rem;
     }
     .main-navigation li:hover {
-        background-color: #7C91A2;
+        background-color: hsl(207, 18%, 33%);
         cursor: default;
     }
     .main-navigation a:hover {
-        background-color: #7DAFD5;
         color: #ffffff !important;
     }
     .main-navigation .current-menu-item > a,
@@ -310,17 +309,15 @@ footer[role="contentinfo"] a {
         border: none;
     }
     .main-navigation li ul li a {
-        background-color: #7C91A2;
+        background-color: hsl(207, 18%, 33%);
         border: 0px;
         font-size: 13px;
         text-transform: none;
     }
-    .main-navigation li ul li a:focus {
-        color: #fff;
-        background-color: #7DAFD5;
-    }
+    .main-navigation li ul li a:focus,
     .main-navigation li ul li a:hover {
-        background-color: #7DAFD5;
+        color: #fff;
+        background-color: hsl(207, 18%, 23%);
     }
 }
 
