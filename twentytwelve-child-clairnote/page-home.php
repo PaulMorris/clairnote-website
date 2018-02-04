@@ -44,6 +44,11 @@ The vertical positions on the staff alternate between solid and hollow noteheads
 
 <img class="alignnone size-full" src="http://clairnote.org/images/Clairnote-solid-hollow-notes.svg" alt="Solid and hollow notes in Clairnote music notation" />
 
+<p class="aside">(<a href="http://clairnote.org/sn/">Clairnote SN</a> does not use solid
+and hollow notes to convey pitch.
+See <a href="http://clairnote.org/clairnote-dn-clairnote-sn/">Clairnote (DN) and
+Clairnote SN</a>.)</p>
+
 <p>This visual pattern makes individual notes easier to identify and interval
 relationships easier to see.</p>
 
@@ -59,6 +64,10 @@ are given a double stem to distinguish them from quarter notes.</p>
 
 <img class="alignnone size-full" src="http://clairnote.org/images/Clairnote-half-notes-quarter-notes-brief.svg" alt="Half notes and quarter notes in Clairnote" />
 
+<p class="aside">(<a href="http://clairnote.org/sn/">Clairnote SN</a> offers
+full continuity with the traditional rhythmic symbol system. See
+<a href="http://clairnote.org/clairnote-dn-clairnote-sn/">Clairnote (DN) and
+Clairnote SN</a>.)</p>
 
 <h2>Look and Listen Closer (AudioVisualizer)</h2>
 <p>Below you can see and hear scales, intervals, modes, and/or the notes you play on an on-screen keyboard.

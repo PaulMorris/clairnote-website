@@ -173,6 +173,10 @@ footer[role="contentinfo"] a {
 /* Other
 ----------------------------------------------- */
 
+.aside {
+    font-size: smaller;
+    font-style: italic;
+}
 .entry-content pre {
     font-size: 0.938em;
     border: 0px;
