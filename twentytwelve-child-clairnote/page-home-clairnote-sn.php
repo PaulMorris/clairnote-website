@@ -454,10 +454,13 @@ and the different names of enharmonically equivalent notes.</p>
 
 <p>(Videos created with <a href="http://www.lilypond.org" target="_blank">LilyPond</a> and <a href="https://github.com/aspiers/ly2video" target="_blank">ly2video</a>, with many thanks to those who work on these projects!)</p>
 
-
-<h2>Software</h2>
-<p>Sheet music in Clairnote SN can be created with LilyPond – free (and open-source) music notation software. Use LilyPond to create new sheet music from scratch or to automatically convert existing music files into Clairnote SN.
-See <a title="Software: LilyPond" href="http://clairnote.org/sn/software/">Software: LilyPond</a>.</p>
+<h2>Sheet Music and Software</h2>
+<p>There are currently over 600 works in the Clairnote SN <a href="http://clairnote.org/sn/sheet-music-library/">Sheet Music Library</a>,
+all available to download for free as PDFs.  They were created with LilyPond – free (open-source) music notation software that
+anyone can use to create new sheet music from scratch or to automatically convert traditional music files into Clairnote SN.
+See <a title="Software: LilyPond" href="http://clairnote.org/sn/software/">Software: LilyPond</a>.
+A collection of fiddle tunes, a piano lesson book, a sight-singing lesson book, and a number of other works are available under
+<a href="http://clairnote.org/sn/sheet-music/">More Sheet Music</a>.</p>
 <p><img class="alignnone size-full" src="http://clairnote.org/images-sn/Clairnote-blue-danube-excerpt.svg" alt="Blue Danube Waltz excerpt in Clairnote SN music notation" /></p>
 <?php /*
 <p>Here are a few well known pieces from the Clairnote <a href="http://clairnote.org/sheet-music-library/">Sheet Music Library</a> (PDF files):</p>

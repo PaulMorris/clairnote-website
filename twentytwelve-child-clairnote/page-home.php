@@ -442,10 +442,10 @@ and the different names of enharmonically equivalent notes.</p>
 
 <h2>Sheet Music and Software</h2>
 <p>There are currently over 600 works in the Clairnote <a href="http://clairnote.org/sheet-music-library/">Sheet Music Library</a>,
-all available to download for free as PDFs.  They were created with LilyPond – free / open-source music notation software that
-anyone can use to automatically convert traditional music files into Clairnote.
-(See <a title="Software: LilyPond" href="http://clairnote.org/software/">Software: LilyPond</a>.)
-A collection of fiddle tunes, a piano lesson book, and a number of other works are available under
+all available to download for free as PDFs.  They were created with LilyPond – free (open-source) music notation software that
+anyone can use to create new sheet music from scratch or to automatically convert traditional music files into Clairnote.
+See <a title="Software: LilyPond" href="http://clairnote.org/software/">Software: LilyPond</a>.
+A collection of fiddle tunes, a piano lesson book, a sight-singing lesson book, and a number of other works are available under
 <a href="http://clairnote.org/sheet-music/">More Sheet Music</a>.</p>
 <p><img class="alignnone size-full" src="http://clairnote.org/images/Clairnote-blue-danube-excerpt.svg" alt="Blue Danube Waltz excerpt in Clairnote music notation" /></p>
 <p>Here are a few well known pieces from the Clairnote <a href="http://clairnote.org/sheet-music-library/">Sheet Music Library</a> (PDF files):</p>
