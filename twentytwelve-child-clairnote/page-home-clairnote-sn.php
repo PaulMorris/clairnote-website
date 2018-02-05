@@ -443,16 +443,17 @@ and the different names of enharmonically equivalent notes.</p>
 </p>
 
 <ul>
-<li><a href="javascript:" onClick="avr.videoToggler('videoBlueDanube')">The Blue Danube Waltz, by J.J. Strauss</a><?php /* – <a href="http://clairnote.org/sheet-music-files/StraussJJ/O314/blue_danube/blue_danube-let.pdf" target="_blank">Sheet Music (PDF)</a> */ ?></li>
+<li><a href="javascript:" onClick="avr.videoToggler('videoBlueDanube')">The Blue Danube Waltz, by J.J. Strauss</a> – <a href="http://clairnote.org/sheet-music-files/StraussJJ/O314/blue_danube/blue_danube-sn-let.pdf" target="_blank">Sheet Music (PDF)</a></li>
 <li><a href="javascript:" onClick="avr.videoToggler('videoRainbow')">Somewhere Over the Rainbow</a></li>
 <li><a href="javascript:" onClick="avr.videoToggler('videoDoReMi')">Do Re Mi from the Sound of Music</a></li>
-<li><a href="javascript:" onClick="avr.videoToggler('videoGreensleeves')">Greensleeves</a><?php /* – <a href="http://clairnote.org/sheet-music-files/Traditional/greensleeves/greensleeves-let.pdf" target="_blank">Sheet Music (PDF)</a> */ ?></li>
-<li><a href="javascript:" onClick="avr.videoToggler('videoBachPrelude')">The Well Tempered Clavier I, Prelude I, by J.S. Bach</a><?php /* – <a href="http://clairnote.org/sheet-music-files/BachJS/BWV846/wtk1-prelude1/wtk1-prelude1-let.pdf" target="_blank">Sheet Music (PDF)</a> */ ?></li>
-<li><a href="javascript:" onClick="avr.videoToggler('videoElise')">Für Elise by L.V. Beethoven</a><?php /* – <a href="http://clairnote.org/sheet-music-files/BeethovenLv/WoO59/fur_Elise_WoO59/fur_Elise_WoO59-let.pdf" target="_blank">Sheet Music (PDF)</a> */ ?></li>
-<li><a href="javascript:" onClick="avr.videoToggler('videoEntertainer')">The Entertainer by Scott Joplin</a><?php /* – <a href="http://clairnote.org/sheet-music-files/JoplinS/entertainer/entertainer-let.pdf" target="_blank">Sheet Music (PDF)</a> */ ?></li>
+<li><a href="javascript:" onClick="avr.videoToggler('videoGreensleeves')">Greensleeves</a> – <a href="http://clairnote.org/sheet-music-files/Traditional/greensleeves/greensleeves-sn-let.pdf" target="_blank">Sheet Music (PDF)</a></li>
+<li><a href="javascript:" onClick="avr.videoToggler('videoBachPrelude')">The Well Tempered Clavier I, Prelude I, by J.S. Bach</a> – <a href="http://clairnote.org/sheet-music-files/BachJS/BWV846/wtk1-prelude1/wtk1-prelude1-sn-let.pdf" target="_blank">Sheet Music (PDF)</a></li>
+<li><a href="javascript:" onClick="avr.videoToggler('videoElise')">Für Elise by L.V. Beethoven</a> – <a href="http://clairnote.org/sheet-music-files/BeethovenLv/WoO59/fur_Elise_WoO59/fur_Elise_WoO59-sn-let.pdf" target="_blank">Sheet Music (PDF)</a></li>
+<li><a href="javascript:" onClick="avr.videoToggler('videoEntertainer')">The Entertainer by Scott Joplin</a> – <a href="http://clairnote.org/sheet-music-files/JoplinS/entertainer/entertainer-sn-let.pdf" target="_blank">Sheet Music (PDF)</a></li>
 </ul>
 
 <p>(Videos created with <a href="http://www.lilypond.org" target="_blank">LilyPond</a> and <a href="https://github.com/aspiers/ly2video" target="_blank">ly2video</a>, with many thanks to those who work on these projects!)</p>
+
 
 <h2>Sheet Music and Software</h2>
 <p>There are currently over 600 works in the Clairnote SN <a href="http://clairnote.org/sn/sheet-music-library/">Sheet Music Library</a>,
@@ -462,19 +463,16 @@ See <a title="Software: LilyPond" href="http://clairnote.org/sn/software/">Softw
 A collection of fiddle tunes, a piano lesson book, a sight-singing lesson book, and a number of other works are available under
 <a href="http://clairnote.org/sn/sheet-music/">More Sheet Music</a>.</p>
 <p><img class="alignnone size-full" src="http://clairnote.org/images-sn/Clairnote-blue-danube-excerpt.svg" alt="Blue Danube Waltz excerpt in Clairnote SN music notation" /></p>
-<?php /*
-<p>Here are a few well known pieces from the Clairnote <a href="http://clairnote.org/sheet-music-library/">Sheet Music Library</a> (PDF files):</p>
+<p>Here are a few well known pieces from the Clairnote SN <a href="http://clairnote.org/sn/sheet-music-library/">Sheet Music Library</a> (PDF files):</p>
 <ul>
-<li><a href="http://clairnote.org/more-sheet-music-files/Twinkle-little-star-Clairnote-let.pdf" target="_blank">Twinkle, Twinkle, Little Star</a>, arranged for piano</li>
-<li><a href="http://clairnote.org/sheet-music-files/StraussJJ/O314/blue_danube/blue_danube-let.pdf" target="_blank">The Blue Danube Waltz (Main Theme)</a> by Johann Strauss Jr., arranged for piano</li>
-<li><a href="http://clairnote.org/sheet-music-files/Traditional/greensleeves/greensleeves-let.pdf" target="_blank">Greensleeves</a> Traditional English melody, arranged for four-part vocal harmony</li>
-<li><a href="http://clairnote.org/sheet-music-files/BachJS/BWV846/wtk1-prelude1/wtk1-prelude1-let.pdf" target="_blank">Das Wohltemperierte Clavier I, Praeludium I</a> by J.S. Bach</li>
-<li><a href="http://clairnote.org/sheet-music-files/BeethovenLv/WoO59/fur_Elise_WoO59/fur_Elise_WoO59-let.pdf" target="_blank">Für Elise</a> by Ludwig van Beethoven, for piano</li>
-<li><a href="http://clairnote.org/sheet-music-files/JoplinS/entertainer/entertainer-let.pdf" target="_blank">The Entertainer</a> by Scott Joplin, for piano</li>
-<li><a href="http://clairnote.org/sheet-music-files/JoplinS/maple/maple-let.pdf" target="_blank">Maple Leaf Rag</a> by Scott Joplin, for piano</li>
+<li><a href="http://clairnote.org/more-sheet-music-files/Twinkle-little-star-Clairnote-sn-let.pdf" target="_blank">Twinkle, Twinkle, Little Star</a>, arranged for piano</li>
+<li><a href="http://clairnote.org/sheet-music-files/StraussJJ/O314/blue_danube/blue_danube-sn-let.pdf" target="_blank">The Blue Danube Waltz (Main Theme)</a> by Johann Strauss Jr., arranged for piano</li>
+<li><a href="http://clairnote.org/sheet-music-files/Traditional/greensleeves/greensleeves-sn-let.pdf" target="_blank">Greensleeves</a> Traditional English melody, arranged for four-part vocal harmony</li>
+<li><a href="http://clairnote.org/sheet-music-files/BachJS/BWV846/wtk1-prelude1/wtk1-prelude1-sn-let.pdf" target="_blank">Das Wohltemperierte Clavier I, Praeludium I</a> by J.S. Bach</li>
+<li><a href="http://clairnote.org/sheet-music-files/BeethovenLv/WoO59/fur_Elise_WoO59/fur_Elise_WoO59-sn-let.pdf" target="_blank">Für Elise</a> by Ludwig van Beethoven, for piano</li>
+<li><a href="http://clairnote.org/sheet-music-files/JoplinS/entertainer/entertainer-sn-let.pdf" target="_blank">The Entertainer</a> by Scott Joplin, for piano</li>
+<li><a href="http://clairnote.org/sheet-music-files/JoplinS/maple/maple-sn-let.pdf" target="_blank">Maple Leaf Rag</a> by Scott Joplin, for piano</li>
 </ul>
-
-*/ ?>
 
 </div><!-- .entry-content -->
 </article><!-- #post -->
