@@ -228,6 +228,46 @@ footer[role="contentinfo"] a {
     bottom: 4px;
 }
 
+
+/* Home Page
+-------------------------------------------------------------- */
+
+#home-h1 {
+  display: none;
+}
+
+#home-subtitle {
+  font-weight: normal;
+  font-style: italic;
+}
+
+.home-entry-content {
+  text-align: center;
+}
+
+.home-entry-content .home-ul {
+  text-align: left;
+}
+
+.cn-caption {
+  margin-bottom: 4rem;
+  font-size: smaller;
+  font-style: italic;
+}
+
+/* Videos */
+
+video {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  display: none;
+}
+
+#videoBlueDanube {
+  display: inline-block;
+}
+
+
 /* =Media queries
 -------------------------------------------------------------- */
 
@@ -318,6 +358,31 @@ footer[role="contentinfo"] a {
     .main-navigation li ul li a:hover {
         color: #fff;
         background-color: hsl(207, 18%, 23%);
+    }
+
+    /* Home page */
+    
+    #home-h1 {
+      display: block;
+      font-size: 48px;
+      margin: 0;
+    }
+    #home-subtitle {
+      margin-top: 2.5rem;
+    }
+    .home-entry-content .home-h2 {
+      font-size: 1.8rem;
+      margin-top: 4.5rem;
+    }
+    .home-site-content {
+      width: 100%
+    }
+    .home-bigtext {
+      font-size: 18px;
+    }
+    .home-entry-content .home-ul {
+      list-style: none;
+      text-align: center;
     }
 }
 

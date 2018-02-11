@@ -26,11 +26,18 @@ function enqueue_clairnote_js_css() {
         enqueue_js('non-page-script', $uri . '/js/non-page-script.js');
     }
 
-    // Home Page (29) and Clairnote SN Home Page (3646)
+    // 29 is DN Home Page
+    // 3646 is SN Home Page
     if (is_page(array(29, 3646))) {
+        enqueue_js('clairnote-homepage-js', $uri . '/js/home.js');
+    }
+
+    // 3818 is DN audiovisualizer
+    // 3821 is SN audiovisualizer
+    if (is_page(array(3818, 3821))) {
         enqueue_js('howler', $uri . '/js/howler.min.js');
         enqueue_js('audiovisualizer', $uri . '/js/audiovisualizer.js');
-        if (is_page(3646)) {
+        if (is_page(array(3821))) {
             enqueue_js('audiovisualizer-sn-home', $uri . '/js/audiovisualizer-sn.js');
         }
         enqueue_js('audiovisualizer-clairnote', $uri . '/js/audiovisualizer-clairnote.js');
