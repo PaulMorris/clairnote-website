@@ -162,6 +162,10 @@ A collection of fiddle tunes, a piano lesson book, a sight-singing lesson book, 
 <li><a href="http://clairnote.org/sheet-music-files/JoplinS/maple/maple-sn-let.pdf" target="_blank">Maple Leaf Rag</a> by Scott Joplin, for piano</li>
 </ul>
 
+<p class="home-bigtext">What next? Explore Clairnote with the
+<a href="http://clairnote.org/sn/audiovisualizer/">AudioVisualizer</a>
+or start to learn to read Clairnote with the
+<a href="http://clairnote.org/sn/learn/">Learning Game</a>.</p>
 
 </div><!-- .entry-content -->
 </article><!-- #post -->
