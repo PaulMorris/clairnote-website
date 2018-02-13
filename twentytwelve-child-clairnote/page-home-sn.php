@@ -62,7 +62,8 @@ identify and interval relationships easier to see.</p>
 <figcaption class="cn-caption">Thirds in the Key of C Major in Clairnote SN and Traditional Notation</figcaption>
 </figure>
 
-<p>All of the traditional rhythm symbols are used in Clairnote SN.</p>
+<p>Clairnote SN uses all of the traditional rhythm symbols (unlike
+Clairnote, see <a href="http://clairnote.org/sn/clairnote-dn-clairnote-sn/">Clairnote and Clairnote SN</a>).</p>
 
 <img class="alignnone size-full" src="http://clairnote.org/images-sn/Clairnote-half-notes-quarter-notes-brief.svg" alt="Half notes and quarter notes in Clairnote SN" />
 

@@ -66,8 +66,8 @@ relationships easier to see.</p>
 <figcaption class="cn-caption">Thirds in the Key of C Major in Clairnote and Traditional Notation</figcaption>
 </figure>
 
-<p>Traditional rhythm symbols are used except half notes
-are given a double stem to distinguish them from quarter notes.</p>
+<p>Clairnote uses traditional rhythm symbols, except half notes have a double
+stem to distinguish them from quarter notes.</p>
 
 <img class="alignnone size-full" src="http://clairnote.org/images/Clairnote-half-notes-quarter-notes-brief.svg" alt="Half notes and quarter notes in Clairnote" />
 
